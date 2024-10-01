@@ -13,6 +13,12 @@ contract Box {
         value = newValue;
         emit ValueChanged(newValue);
     }
+
+    // Stores a new value in the contract
+    function storeVerifyTest2(uint256 newValue) public {
+        value = newValue;
+        emit ValueChanged(newValue);
+    }
  
     // Reads the last stored value
     function retrieve() public view returns (uint256) {
