@@ -24,7 +24,7 @@ contract CustomProxy is TransparentUpgradeableProxy {
     }
 
     // Function to test verification
-    function retrieve3() public view returns (uint256) {
-        return 2;
+    function retrieve10() public view returns (uint256) {
+        return 10;
     }
 }
