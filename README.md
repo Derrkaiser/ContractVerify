@@ -52,3 +52,18 @@ npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS "Hello, Hardhat!"
 # Performance optimizations
 
 For faster runs of your tests and scripts, consider skipping ts-node's type checking by setting the environment variable `TS_NODE_TRANSPILE_ONLY` to `1` in hardhat's environment. For more details see [the documentation](https://hardhat.org/guides/typescript.html#performance-optimizations).
+
+# Proxy Admin
+$ yarn hardhat verify --network sepolia 0x22618E83f113FfBb5601DA1DE1dd9076A8D51e6a
+
+# Implementation 
+$ yarn hardhat verify --network sepolia 0xab7B5C1C4292C712be9000234E4B72130c507429
+
+# Proxy
+$ yarn hardhat verify --network sepolia --constructor-args arguments.js 0x5d1Bb66aAc5010E693c9421c7AbcF971243443F4^C
+
+
+
+https://sepolia.etherscan.io/address/0x4E2cAEF184D8017ad2D87a86Cf1a5432E25342F6
+https://sepolia.etherscan.io/token/0x5D1Cb66119810bb6512D817BC3f519B3F5047cD9#code
+https://sepolia.etherscan.io/address/0x6bC31BeCD690EfF3c38A8dF5B47F3990b2E305a5#writeContract
